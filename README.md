@@ -133,9 +133,9 @@ Por defecto, la aplicación estará disponible en:
 ---
 
 ## Funcionalidades principales
-- Visualización del historial de temperaturas, humedad, viento y radiación.  
+- Visualización del historial de temperaturas, humedad, viento y radiación, entro otras.  
 - Análisis interactivo mediante gráficos dinámicos.  
-- Evaluación del potencial solar y eólico en Temixco.
+- Evaluación del potencial solar y eólico en Temixco????
 
 ---
 
