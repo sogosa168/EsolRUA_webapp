@@ -1,0 +1,7 @@
+_pycache_/
+*.sqlite3
+*.parquet
+.DS_Store
+venv/
+.env
+.ipynb_checkpoints/
