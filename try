@@ -1,8 +1,14 @@
+#%%
+
 import pandas as pd
 import os
 
+#%%
+
 def verificar(directorio, años=range(2010, 2025)):
-    archivos_nombre = [f"data/raw/RUOA/ESOLMET/{año}_ESOLMET.csv" for año in años]
+    #archivos_nombre = [f"data/raw/RUOA/ESOLMET/{año}_ESOLMET.csv" for año in años]
+    archivos_nombre = [f"data/raw/RUOA/{año}_RUOA_HR.csv" for año in años]
+
     archivos = [archivo for archivo in archivos_nombre if os.path.exists(archivo)]
 
     if not archivos:
