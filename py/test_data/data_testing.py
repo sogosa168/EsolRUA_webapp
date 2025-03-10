@@ -1,3 +1,6 @@
+
+#Aqui se encuentran todas las funciones 
+
 import pandas as pd
 
 def import_data(f, encoding="utf-8"):
@@ -33,6 +36,27 @@ def detect_endswith(filepath):
 
 
 def detect_nans(df):
+    if df.isnull().sum().sum() == 0:
+        tag_nans = True
+    else:
+        tag_nans = False
+
+    return tag_nans
+
+import pandas as pd
+
+def detect_endswith(filepath: str) -> bool:
+    """Detecta el tipo de archivo basándose en su extensión y contenido."""
+    if filepath.endswith('.csv'):
+        tag_endswith = True
+    else:
+        tag_endswith = False
+        print("El archivo no termina en csv")
+        
+    return tag_endswith
+
+
+def detect_nans(df: pd.DataFrame) -> bool:
     if df.isnull().sum().sum() == 0:
         tag_nans = True
     else:

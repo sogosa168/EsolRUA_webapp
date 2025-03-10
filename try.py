@@ -60,3 +60,6 @@ def verificar(directorio, años=range(2010, 2025)):
         print("todos tienen las mismas columnas.")
 
 verificar(".")
+
+
+#La entrada sera un diccionario y te regresa si esas columnas que vienen en el dccionario corresponden al tipo devariables que espero no regresa el df solo el diciconario 

@@ -1,6 +1,5 @@
 # %% 
 import pandas as pd 
-import missingno as msno
 
 from test_data.data_testing import import_data
 from test_data.data_testing import detect_endswith
